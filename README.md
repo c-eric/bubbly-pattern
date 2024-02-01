@@ -1,2 +1,2 @@
-# bubbly-pattern
+# Bubbly pattern
 Bubbly!
