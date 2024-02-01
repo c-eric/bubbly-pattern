@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+  <title>Bubbly Pattern Library</title>
+</head>
+<body>
+ 
+<div class="box">
+
+	<header>
+		<h1>Bubbly</h1>
+		<p>This UI pattern library is themed around round shapes & calming colors. It evokes feelings of satisfaction and calmness with its different states. Hopefully, you feel all <i>Bubbly</i> !</p>
+	</header>
+
+	<h2 id="bt">
+		Buttons
+	</h2>
+
+		<div class="text">
+			<p class="grid-text"><strong>Primary</strong></p>
+			<p class="grid-text"><strong>Secondary</strong></p>
+			<p class="grid-text"><strong>Action</strong></p>
+		</div>
+
+  		<div class="btn-group">
+   			<button id="btn-ok">OK</button>
+    		<button id="btn-cancel">CANCEL</button>
+   			<button id="btn-send">SEND</button>
+  		</div>
+
+  		<div class="btn-group2">
+   			<button id="btn-ok-2">OK</button>
+    		<button id="btn-cancel-2" disabled>CANCEL</button>
+   			<button id="btn-send-2" disabled>SEND</button>
+  		</div>
+
+  	<h2 id="tf">
+  		Text Fields
+  	</h2>
+
+  	<p class="txtfield">
+  		Stand & Focus
+  	</p>
+
+  	<div class="container">
+  		<div class="textfield">
+  			<input id="stand_focus" placeholder=" " type="text">
+  			<label id="sf_label">First Name</label>
+  		</div>
+  	</div>
+
+  	<p class="txtfield">
+  		Disabled
+  	</p>
+
+  	<div class="container">
+  		<div class="textfield">
+  			<input id="disabled" placeholder=" " type="text" disabled>
+  			<label id="d_label">First Name</label>
+  		</div>
+  	</div>
+
+  	<p class="txtfield">
+  		Error
+  	</p>
+
+  	<div class="container">
+  		<div class="textfield">
+  			<input id="input_error" placeholder="Error!" type="text">
+  			<label class="first_name">First Name</label>
+  		</div>
+  	</div>
+
+  	<h2 id="ic">
+  		Icons
+  	</h2>
+
+  	<div class="text2">
+			<p class="grid-text2"><strong>Profile</strong></p>
+			<p class="grid-text2"><strong>Settings</strong></p>
+			
+	</div>
+
+  	<div class="icons">
+
+  		<svg id="profile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  			<defs>
+  				<style>.cls-1{fill:#fff!important;stroke:000;}</style>
+  				<linearGradient id="MyGradient">
+          			<stop offset="5%" stop-color="#7949c7" />
+          			<stop offset="95%" stop-color="#568ea6" />
+        		</linearGradient>
+  			</defs>
+  			<g id="body">
+  				<path class="cls-1" d="M98,345a26.31,26.31,0,0,1-26.28-26.28v-48.1A62.69,62.69,0,0,1,134.37,208H268.13a62.69,62.69,0,0,1,62.62,62.62v48.1A26.31,26.31,0,0,1,304.47,345Z"/>
+  				<path d="M268.13,216a54.68,54.68,0,0,1,54.62,54.62v48.1A18.3,18.3,0,0,1,304.47,337H98a18.3,18.3,0,0,1-18.28-18.28v-48.1A54.68,54.68,0,0,1,134.37,216H268.13m0-16H134.37a70.62,70.62,0,0,0-70.62,70.62v48.1A34.28,34.28,0,0,0,98,353H304.47a34.28,34.28,0,0,0,34.28-34.28v-48.1A70.62,70.62,0,0,0,268.13,200Z"/>
+  			</g>
+  			<g id="head">
+  				<circle class="cls-1" cx="201.25" cy="152" r="78"/>
+  				<path d="M201.25,82a70,70,0,1,1-70,70,70.08,70.08,0,0,1,70-70m0-16a86,86,0,1,0,86,86,86,86,0,0,0-86-86Z"/>
+  			</g>
+  		</svg>
+
+
+
+  		<svg id="settings" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  			<defs>
+  				<style>
+  					.cls-2{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:20px;}
+  				</style>
+  				<linearGradient id="MyGradient2">
+          			<stop offset="5%" stop-color="#f0b7a4" />
+          			<stop offset="95%" stop-color="#f18c8e" />
+        		</linearGradient>
+  			</defs>
+  			<g id="bottom_line">
+  				<rect x="41" y="241" width="61" height="31" rx="15.5"/>
+  				<rect x="203" y="240" width="157" height="31" rx="15.5"/>
+  			</g>
+  			<g id="middle_line">
+  				<rect x="288" y="158" width="69" height="31" rx="15.5"/>
+  				<rect x="38" y="157" width="149" height="31" rx="15.5"/>
+  			</g>
+  			<g id="top_line">
+  				<rect x="38" y="75" width="61" height="31" rx="15.5"/>
+  				<rect x="200" y="74" width="157" height="31" rx="15.5"/>
+  			</g>
+  			<g id="bottom_circle">
+  				<circle cx="152" cy="256" r="28"/>
+  			</g>
+  			<g id="middle_circle">
+  				<circle cx="238" cy="172" r="28"/>
+  			</g>
+  			<g id="top_circle">
+  				<circle cx="149" cy="89" r="28"/>
+  			</g>
+  		</svg>
+  	</div>
+
+</div>
+		
+
+<footer>
+	© Eric C. 2020
+</footer>
+
+</body>
+</head>
+</html>
+
