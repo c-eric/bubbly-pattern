@@ -416,7 +416,6 @@ footer {
 	stroke: url(#MyGradient);
 	stroke-width: 7;
 	transition: all 0s;
-	cursor: pointer;
 }
 
 #profile:active {
@@ -433,7 +432,6 @@ footer {
 	stroke: url(#MyGradient2);
 	stroke-width: 7;
 	transition: all 0s;
-	cursor: pointer;
 }
 
 #settings:active {
